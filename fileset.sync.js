@@ -1,5 +1,6 @@
 var	glob = require('glob'),
-	iswin = require('iswin');
+	iswin = require('iswin'),
+	_ = require('lodash');
 
 function fix_pathes(files){
 	return files.map(function(f){
