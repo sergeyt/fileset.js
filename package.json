@@ -1,0 +1,38 @@
+{
+  "name": "fileset.js",
+  "version": "0.0.0",
+  "description": "Nodejs module to handle glob pattern set.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sergeyt/fileset.js.git"
+  },
+  "keywords": [
+    "glob",
+    "fileset"
+  ],
+  "author": "Sergey Todyshev <stodyshev@gmail.com>",
+  "contributors": [
+    "Sergey Todyshev <stodyshev@gmail.com>"
+  ],
+  "dependencies": {
+    "iswin": "0.0.2",
+    "q": "~1.0.0",
+    "async": "~0.2.10",
+    "glob": "~3.2.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7",
+    "grunt-auto-release": "~0.0.2",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-cli": "~0.1.11"
+  },
+  "scripts": {
+    "lint": "grunt lint",
+    "test": "grunt test"
+  }
+}

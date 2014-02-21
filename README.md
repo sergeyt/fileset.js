@@ -1,4 +1,3 @@
-fileset.js
-==========
+# fileset.js
 
-Nodejs module to handle glob pattern set
+Nodejs module to find files for given pattern set.
