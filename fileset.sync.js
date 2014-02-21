@@ -1,6 +1,6 @@
 var	glob = require('glob'),
 	iswin = require('iswin'),
-	_ = require('lodash');
+	_ = require('underscore');
 
 function fix_pathes(files){
 	return files.map(function(f){

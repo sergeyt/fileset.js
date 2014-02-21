@@ -21,7 +21,7 @@
     "q": "~1.0.0",
     "async": "~0.2.10",
     "glob": "~3.2.8",
-    "lodash": "~2.4.1"
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
